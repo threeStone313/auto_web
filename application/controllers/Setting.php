@@ -44,11 +44,11 @@ class Setting extends MY_Controller {
 
 		$this->load->library('form_validation');
 
-		switch ( $mode ) {
+		switch ( $mode ) { 
 			case 'detail':
-				$this->form_validation->set_rules( 'sqlUrl', 'Datebase Url', 'required' );
-				$this->form_validation->set_rules( 'sqlAccount', 'Datebase User', 'required' );
-				$this->form_validation->set_rules( 'sqlPassword', 'Datebase Password', 'required' );
+				//$this->form_validation->set_rules( 'sqlUrl', 'Datebase Url', 'required' );
+				//$this->form_validation->set_rules( 'sqlAccount', 'Datebase User', 'required' );
+				//$this->form_validation->set_rules( 'sqlPassword', 'Datebase Password', 'required' );
 				break;
 			default:
 				# code...

@@ -60,13 +60,9 @@ class Setting_model extends CI_Model {
 
 		$url = $this->getOneSetting( 'sqlUrl' );
 		$user = $this->getOneSetting( 'sqlAccount' );
-		$password = $this->getOneSetting( 'sqlPassword' );
-
-		if( $url && $user && $password ) {
-			return array('sqlUrl'=>$url, 'sqlAccount'=>$user, 'sqlPassword'=>$password );
-		} else {
-			return false;
-		}
+		$password = $this->getOneSetting( 'sqlPassword' ); 
+		
+		return array('sqlUrl'=>$url, 'sqlAccount'=>$user, 'sqlPassword'=>$password );
 
 	}
 

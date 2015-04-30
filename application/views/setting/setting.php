@@ -5,9 +5,9 @@
 		<h4>Account setting</h4>
 		<?php echo form_open('setting/save_detail', array('role'=>'form', 'class'=>'form-horizontal')); ?>
 			<div class="form-group">
-				<label class="col-sm-3 control-label">Datebase Url</label>
+				<label class="col-sm-3 control-label">Datebase Server Name</label>
 				<div class="col-sm-5">
-					<input type="text" placeholder="Datebase Url" class="form-control" name="sqlUrl" value="<?php echo element('sqlUrl', $setting, '');?>">
+					<input type="text" placeholder="Datebase Server Name" class="form-control" name="sqlUrl" value="<?php echo element('sqlUrl', $setting, '');?>">
 				</div>
 			</div>
 			<div class="form-group">

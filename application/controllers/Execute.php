@@ -29,7 +29,7 @@ class Execute extends MY_Controller {
 		$_SESSION['ip'] = $ip;
 
 		$dbconfig = $this->setting_model->getDbConfig();
-		if( !$dbconfig ) show_error('Database haven\'t set yet.Please set in setting page.');
+		
 
 		$email = $this->admin_model->getEmail();
 
@@ -67,7 +67,7 @@ class Execute extends MY_Controller {
 		$_SESSION['ip'] = $ip;
 
 		$dbconfig = $this->setting_model->getDbConfig();
-		if( !$dbconfig ) show_error('Database haven\'t set yet.Please set in setting page.');
+		
 
 		$email = $this->admin_model->getEmail();
 
