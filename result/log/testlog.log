@@ -1,0 +1,48 @@
+2015-04-29 16:27:55 [main]-[INFO] Luanch [firefox] successfully <br>
+2015-04-29 16:27:55 [main]-[INFO] <font color='MediumSeaGreen'>TK_UBVR_AddManualRegistry test case start running</font><br>
+2015-04-29 16:27:56 [main]-[INFO] connect to DB success <br>
+2015-04-29 16:27:59 [main]-[INFO] exec Update TestRegistry.dbo.CoupleRegistry set IsDeleted = 1 where coupleid=5059977
+2015-04-29 16:28:06 [main]-[INFO] Wait [5000] ms <br>
+2015-04-29 16:28:06 [main]-[INFO] go to [http://qa.services.theknot.com/registry/v1/Couples/synchronize/5059977?apikey=ca7f6e91ee8134de9717707d86b29100]<br> 
+2015-04-29 16:28:17 [main]-[INFO] Wait [5000] ms <br>
+2015-04-29 16:28:17 [main]-[INFO] go to [https://qa-beta.theknot.com/registry/manage]<br> 
+2015-04-29 16:28:19 [main]-[INFO] founded the element [By.xpath: //a[@href='/account']] and operate it <br>
+2015-04-29 16:28:22 [main]-[INFO] Wait [3000] ms <br>
+2015-04-29 16:28:23 [main]-[INFO] switch to iframe [By.xpath: //iframe[@src='/account/sign_in?application_id=null&desktop=true']] <br>
+2015-04-29 16:28:24 [main]-[INFO] founded the element [By.id: email] and operate it <br>
+2015-04-29 16:28:25 [main]-[INFO] Wait [1000] ms <br>
+2015-04-29 16:28:26 [main]-[INFO] founded the element [By.id: password] and operate it <br>
+2015-04-29 16:28:27 [main]-[INFO] Wait [1000] ms <br>
+2015-04-29 16:28:28 [main]-[INFO] founded the element [By.name: go] and operate it <br>
+2015-04-29 16:28:33 [main]-[INFO] switch to defaultContent <br>
+2015-04-29 16:28:37 [main]-[INFO] Wait [4000] ms <br>
+2015-04-29 16:28:38 [main]-[INFO] founded the element [By.xpath: //a[text()='add one manually']] and operate it <br>
+2015-04-29 16:28:39 [main]-[INFO] founded the element [By.name: manualName] and operate it <br>
+2015-04-29 16:28:41 [main]-[INFO] Wait [1000] ms <br>
+2015-04-29 16:28:41 [main]-[INFO] founded the element [By.name: manualUrl] and operate it <br>
+2015-04-29 16:28:44 [main]-[INFO] Wait [1000] ms <br>
+2015-04-29 16:28:45 [main]-[INFO] founded the element [By.xpath: //a[text()='add registry']] and operate it <br>
+2015-04-29 16:28:50 [main]-[INFO] founded the element [By.id: mg-warn] and operate it <br>
+2015-04-29 16:28:51 [main]-[INFO] Expected [Your jcpenney registry was successfully added!] and founded [Your jcpenney registry was successfully added!] <br>
+2015-04-29 16:28:52 [main]-[INFO] founded the element [By.xpath: //button[text()='CLOSE']] and operate it <br>
+2015-04-29 16:28:57 [main]-[INFO] Wait [5000] ms <br>
+2015-04-29 16:28:58 [main]-[INFO] founded the element [By.xpath: //img[@title='JCPenney']] and operate it <br>
+2015-04-29 16:29:01 [main]-[INFO] Focused on [1] window <br>
+2015-04-29 16:29:06 [main]-[INFO] Wait [5000] ms <br>
+2015-04-29 16:29:06 [main]-[INFO] Get current page' url <br>
+2015-04-29 16:29:12 [main]-[INFO] Expected [http://www.jcpenney.com/.*] and founded [http://www.jcpenney.com/dotcom/jsp/giftregistry/templates/landingV2.jsp?eventRootCatId=cat100630110&eventType=W&grView=public&containerId=&cmJCP_T=&cmJCP_C=&wcref=yes&wcsid=20238417&stop_mobi=yes&wcref=yes&wcsid=20241618] <br>
+2015-04-29 16:29:13 [main]-[INFO] Focused on [0] window <br>
+2015-04-29 16:29:15 [main]-[INFO] founded the element [By.xpath: //a[text()='ADD ANOTHER REGISTRY']] and operate it <br>
+2015-04-29 16:29:20 [main]-[INFO] Wait [5000] ms <br>
+2015-04-29 16:29:21 [main]-[INFO] founded the element [By.xpath: //a[text()='add one manually']] and operate it <br>
+2015-04-29 16:29:24 [main]-[INFO] founded the element [By.name: manualName] and operate it <br>
+2015-04-29 16:29:25 [main]-[INFO] Wait [1000] ms <br>
+2015-04-29 16:29:26 [main]-[INFO] founded the element [By.name: manualUrl] and operate it <br>
+2015-04-29 16:29:27 [main]-[INFO] Wait [1000] ms <br>
+2015-04-29 16:29:28 [main]-[INFO] founded the element [By.xpath: //a[text()='add registry']] and operate it <br>
+2015-04-29 16:29:34 [main]-[INFO] founded the element [By.id: mg-warn] and operate it <br>
+2015-04-29 16:29:34 [main]-[INFO] Expected [Your stone registry was successfully added!] and founded [Your stone registry was successfully added!] <br>
+2015-04-29 16:29:34 [main]-[INFO] TK_UBVR_AddManualRegistry test case runs successfully<br>
+2015-04-29 16:29:34 [main]-[INFO] Close the browser successfully<br>
+2015-04-29 16:29:34 [main]-[INFO] Send the report to your email address.<br>
+2015-04-29 16:29:35 [main]-[INFO] Passed= TK_UBVR_AddManualRegistry

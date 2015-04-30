@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [browserNumb]">
+  <parameter name="sqlUrl" value="testregistrydb.cx63o2hqi2wj.us-east-1.rds.amazonaws.com"/>
+  <parameter name="sqlAccount" value="SQLQAUser"/>
+  <parameter name="height" value=""/>
+  <parameter name="email" value="swang@xogrp.com"/>
+  <parameter name="IP" value="172.25.34.146"/>
+  <parameter name="width" value=""/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="sqlPassword" value="abc123!"/>
+  <listeners>
+    <listener class-name="com.netease.qa.testng.TestResultListener"/>
+    <listener class-name="com.netease.qa.testng.RetryListener"/>
+    <listener class-name="com.netease.qa.testng.PowerEmailableReporter"/>
+  </listeners>
+  <test name="theKnot(failed)">
+    <parameter name="sqlUrl" value="testregistrydb.cx63o2hqi2wj.us-east-1.rds.amazonaws.com"/>
+    <parameter name="height" value=""/>
+    <parameter name="sqlAccount" value="SQLQAUser"/>
+    <parameter name="email" value="swang@xogrp.com"/>
+    <parameter name="width" value=""/>
+    <parameter name="IP" value="172.25.34.146"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="sqlPassword" value="abc123!"/>
+    <classes>
+      <class name="KWS.prepare.t15042902355653">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="TK_UBVR_AddExistingRegistryByCoupleSearchAndRemove"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- KWS.prepare.t15042902355653 -->
+    </classes>
+  </test> <!-- theKnot(failed) -->
+</suite> <!-- Failed suite [browserNumb] -->

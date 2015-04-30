@@ -1,0 +1,14 @@
+<suite name="KWS" verbose="5">    
+    <test name="STKWS" preserve-order="true">
+    <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="KWS2.A26VerifyTheSearchResultReturnedIsRelatedToSearchCondition"/>
+            <class name="KWS2.A27VerifyFacetsOfLeftNavAppear0nSubsubcategoryPagesAndWorkWell"/>
+            <class name="KWS2.B28VerifyWhenISelectOptionsOrInputTextIShouldSeeALiveScene7RenderingOfMySelections"/>
+            <class name="KWS2.B29VerifyPersonalizationDetailsShouldBePassedToMyShoppingCart"/>
+            <class name="KWS2.C30VerifyClickingOnCheckoutInMiniCartWindowTakesUserToShoppingCartPage"/>    
+            <class name="KWS2.C32VerifyProductDetailsShouldBeShownOnMiniCart"/>      
+            <class name="KWS2.D33VerifyEveryProductTypeCanBeAddedToTheCart"/> 
+        </classes>
+    </test> 
+</suite>

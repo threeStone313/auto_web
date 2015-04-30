@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<suite name="browserNumb" verbose="0"><test name="theKnot"><parameter name="IP" value="172.26.0.4"/><parameter name="browser" value="firefox"/><parameter name="width" value=""/><parameter name="height" value=""/><parameter name="email" value="admin@admin.com"/><classes><class name="KWS.prepare.t15_04_26_11_14_28"/></classes></test><listeners><listener class-name="com.netease.qa.testng.TestResultListener"/><listener class-name="com.netease.qa.testng.RetryListener"/><listener class-name="com.netease.qa.testng.PowerEmailableReporter"/></listeners></suite>

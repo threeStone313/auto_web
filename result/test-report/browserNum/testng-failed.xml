@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [browserNum]">
+  <parameter name="IP" value=""/>
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.netease.qa.testng.TestResultListener"/>
+    <listener class-name="com.netease.qa.testng.RetryListener"/>
+    <listener class-name="com.netease.qa.testng.RetryListener"/>
+  </listeners>
+  <test name="theKnot(failed)">
+    <parameter name="IP" value=""/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="KWS.prepare.exec">
+        <methods>
+          <include name="验证百度搜索"/>
+          <include name="setBrowser"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- KWS.prepare.exec -->
+    </classes>
+  </test> <!-- theKnot(failed) -->
+</suite> <!-- Failed suite [browserNum] -->

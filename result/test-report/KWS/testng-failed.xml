@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [KWS]">
+  <parameter name="browser" value="remote"/>
+  <listeners>
+    <listener class-name="com.netease.qa.testng.TestResultListener"/>
+    <listener class-name="com.netease.qa.testng.RetryListener"/>
+    <listener class-name="com.netease.qa.testng.PowerEmailableReporter"/>
+  </listeners>
+  <test name="STKWS(failed)">
+    <parameter name="browser" value="remote"/>
+    <classes>
+      <class name="KWS.prepare.exec">
+        <methods>
+          <include name="failed_case"/>
+          <include name="setBrowser"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- KWS.prepare.exec -->
+    </classes>
+  </test> <!-- STKWS(failed) -->
+</suite> <!-- Failed suite [KWS] -->

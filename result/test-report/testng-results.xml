@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="browserNumb" duration-ms="108357" started-at="2015-04-29T08:27:47Z" finished-at="2015-04-29T08:29:35Z">
+    <groups>
+    </groups>
+    <test name="theKnot" duration-ms="108357" started-at="2015-04-29T08:27:47Z" finished-at="2015-04-29T08:29:35Z">
+      <class name="KWS.prepare.t15042904274521">
+        <test-method status="PASS" signature="setBrowser(org.testng.ITestContext)[pri:0, instance:KWS.prepare.t15042904274521@328908cd]" name="setBrowser" is-config="true" duration-ms="8212" started-at="2015-04-29T16:27:47Z" finished-at="2015-04-29T16:27:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@48d3aac2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="TK_UBVR_AddManualRegistry()[pri:0, instance:KWS.prepare.t15042904274521@328908cd]" name="TK_UBVR_AddManualRegistry" duration-ms="98978" started-at="2015-04-29T16:27:55Z" finished-at="2015-04-29T16:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TK_UBVR_AddManualRegistry -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:KWS.prepare.t15042904274521@328908cd]" name="afterTest" is-config="true" duration-ms="1152" started-at="2015-04-29T16:29:34Z" finished-at="2015-04-29T16:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- KWS.prepare.t15042904274521 -->
+    </test> <!-- theKnot -->
+  </suite> <!-- browserNumb -->
+</testng-results>
